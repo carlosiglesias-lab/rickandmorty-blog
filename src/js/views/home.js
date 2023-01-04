@@ -16,8 +16,7 @@ export const Home = () => {
 			<div className="row">
 				{store.characters.map((item, index) => {
 					return (						
-						<Card key={item.id} character={item}/>
-						
+						<Card key={item.id} character={item}/>						
 					);
 				})}
 			</div>
